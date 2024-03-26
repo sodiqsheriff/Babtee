@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 80vw; /* Responsive width */
+    height: 80vw; /* Responsive height */
+    max-width: 400px; /* Max width */
+    max-height: 400px; /* Max height */
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#controls img {
+    width: 40px;
+    height: 40px;
+}
+
+#up img {
+    transform: rotate(-90deg);
+}
+
+#down img {
+    transform: rotate(90deg);
+}
+
+#left img {
+    transform: rotate(180deg);
+}
